@@ -8,9 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-	@GetMapping({"/index", "/shop","/checkout","/cart","/contact","/detail"})
+	@GetMapping("/index")
 	public String index() {
 	    return "index";
 	}
-	
+	@GetMapping("/shop")
+	public String shop() {
+	    return "shop";
+	}
 }
