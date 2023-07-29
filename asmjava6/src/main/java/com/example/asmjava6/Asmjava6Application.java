@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.example.asmjava6","com.poly"})
+@ComponentScan(basePackages = {"com.example.controller"})
 public class Asmjava6Application {
 
 	public static void main(String[] args) {
